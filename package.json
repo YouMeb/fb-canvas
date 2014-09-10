@@ -1,0 +1,22 @@
+{
+  "name": "fb-noti",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony server"
+  },
+  "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "co": "^3.1.0",
+    "koa": "^0.11.0",
+    "koa-ipblock": "0.0.0",
+    "koa-router": "^3.3.1",
+    "qs": "^2.2.3",
+    "requirep": "0.0.2",
+    "superagent": "^0.18.2"
+  }
+}
