@@ -1,5 +1,5 @@
 {
-  "name": "fb-noti",
+  "name": "fb-canvas",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -12,11 +12,14 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "co": "^3.1.0",
+    "co-body": "^1.0.0",
     "koa": "^0.11.0",
     "koa-ipblock": "0.0.0",
     "koa-router": "^3.3.1",
     "qs": "^2.2.3",
     "requirep": "0.0.2",
-    "superagent": "^0.18.2"
+    "salesforce-signed-request": "git+https://github.com/YouMeb/salesforce-signed-request.git",
+    "superagent": "^0.18.2",
+    "swig": "^1.4.2"
   }
 }
